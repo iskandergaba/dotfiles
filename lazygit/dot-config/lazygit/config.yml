@@ -1,8 +1,8 @@
 os:
-  editPreset: 'nano'
+    editPreset: "nano"
 git:
-  paging:
-    colorArg: always
-    pager: diff-so-fancy
+    paging:
+        colorArg: always
+        pager: diff-so-fancy
 gui:
-  nerdFontsVersion: "3"
+    nerdFontsVersion: "3"
