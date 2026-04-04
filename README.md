@@ -23,13 +23,13 @@ stow bash
 - To unstow all packages:
 
 ```sh
-stow -D */
+stow --delete */
 ```
 
 - To unstow a specific package, such as `bash`:
 
 ```sh
-stow -D bash
+stow --delete bash
 ```
 
 ### Restow Packages
@@ -37,11 +37,11 @@ stow -D bash
 - To restow all packages:
 
 ```sh
-stow -R */
+stow --restow */
 ```
 
 - To restow a specific package, such as `bash`:
 
 ```sh
-stow -R bash
+stow --restow bash
 ```
