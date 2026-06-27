@@ -3,5 +3,6 @@ os:
 git:
   pagers:
     - pager: delta --paging=never
+    - {} # default
 gui:
   nerdFontsVersion: "3"
