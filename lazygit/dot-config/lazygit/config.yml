@@ -1,8 +1,9 @@
 os:
   editPreset: "nano"
 git:
-  pagers:
-    - pager: delta --paging=never
-    - {} # default
+  diffRenderers:
+    - command: delta --paging=never
+    - type: rawGit
+      name: default
 gui:
   nerdFontsVersion: "3"
