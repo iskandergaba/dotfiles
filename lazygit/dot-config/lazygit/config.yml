@@ -2,7 +2,7 @@ os:
   editPreset: "nano"
 git:
   diffRenderers:
-    - command: delta --paging=never
+    - command: delta --{{colorScheme}} --paging=never
     - type: rawGit
       name: default
 gui:
